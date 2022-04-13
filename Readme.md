@@ -32,15 +32,18 @@ At the sheet Outcomes Based on Goals one should pay attention to the formula at 
 
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+>- What are two conclusions you can draw about the Outcomes based on Launch Date?
 1. Overall Theater campaigns are most of the time two times more successful than they are failed.
 2. The best months for launching Theater campaign are May and June, and the worst month is evidently December.
 
-- What can you conclude about the Outcomes based on Goals?
-campaigns with the small goals are usually more successful, then campaigns with the big goals: plays with the goals less than 1K have the best percentage of success ever, and when goals of plays exceed 20K the probability of success becomes less than 50%.
+>- What can you conclude about the Outcomes based on Goals?
 
-- What are some limitations of this dataset?
+Campaigns with the small goals are usually more successful, then campaigns with the big goals: plays with the goals less than 1K have the best percentage of success ever, and when goals of plays exceed 20K the probability of success becomes less than 50%.
+
+>- What are some limitations of this dataset?
+
 There could be other variables that affect the final outcome. For example, the plays of some authors may be more successful than the plays of others. Or advertising campaigns applied in some cases may be more successful than in others.
 
-- What are some other possible tables and/or graphs that we could create?
+>- What are some other possible tables and/or graphs that we could create?
+
 Calculating and visualizing by percentage of successful/failed/canceled Theater campaigns by the time of year in the sheet "Theater Outcomes by Launch Date", could be more comprehensive than numbers. 
