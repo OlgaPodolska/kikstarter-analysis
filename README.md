@@ -8,7 +8,7 @@ While utilizing Kickstarter dataset my goal was to visualize campaign outcomes b
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
-![Theater_Outcomes_vs_Launch.png](https://github.com/OlgaPodolska/kikstarter-analysis/blob/main/resources/Theater_Outcomes_vs_Launch.png)
+![Theater_Outcomes_vs_Launch.png](/resources/Theater_Outcomes_vs_Launch.png)
 
 To perform the analysis I took the following step:
 1. Created pivot table with following characteristics: Filters - Parent Category and Years, Columns - Outcomes, Rows - Date Created Conversion, Values - Count of Outcomes.
@@ -16,7 +16,7 @@ To perform the analysis I took the following step:
 3. Created chart for the successful, failed and canceled Theater campaigns.
 
 ### Analysis of Outcomes Based on Goals
-![Outcomes_vs_Goals.png](https://github.com/OlgaPodolska/kikstarter-analysis/blob/main/resources/Outcomes_vs_Goals.png)
+![Outcomes_vs_Goals.png](/resources/Outcomes_vs_Goals.png)
 
 To perform the analysis I took the following step:
 1. I made the table by given example,
