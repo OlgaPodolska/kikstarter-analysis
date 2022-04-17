@@ -3,21 +3,28 @@
 ## Overview of Project
 
 ### Purpose
-While utilizing Kickstarter dataset my goal was to visualize campaign outcomes based on their launch dates and their funding goals.
+While utilizing Kickstarter dataset my goal was to utilize function and visualize campaign outcomes based on their launch dates and their funding goals. I created two technical analysis Charts: Outcomes Based on Launch Date and Outcomes Based on Goals. I used my knowledge of pivot tables and graphing in Excel to visualize campaign outcomes.
 
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
 ![Theater_Outcomes_vs_Launch.png](/resources/Theater_Outcomes_vs_Launch.png)
 
+#### Chart creation methodology
 To perform the analysis I took the following step:
 1. Created pivot table with following characteristics: Filters - Parent Category and Years, Columns - Outcomes, Rows - Date Created Conversion, Values - Count of Outcomes.
 2. Filtered Theater fundrasing campaigns and choose successful, failed and canceled from them.
 3. Created chart for the successful, failed and canceled Theater campaigns.
 
+#### General comments about chart
+1. Successul campaigns launched in April, May and June, we can see the big peak in May and months near it.
+2. We can see the peaks as well in the February and October.
+3. Hystorical minimum is in December, the quantity of succesful campaign almost the same as failed.
+
 ### Analysis of Outcomes Based on Goals
 ![Outcomes_vs_Goals.png](/resources/Outcomes_vs_Goals.png)
 
+#### Chart creation methodology
 To perform the analysis I took the following step:
 1. I made the table by given example,
 2. I choose successful plays by the goal range with formulas like that:
@@ -28,6 +35,9 @@ To perform the analysis I took the following step:
 5. Then I used the SUMM formula to calculate the number of Total projects.
 6. Percentage I calculate by formula =B2/$E2
 7. Then I created chart for the Percentages.
+
+#### General comments about chart
+1& We can clearly see that chart has 4 areas: 
 
 ### Challenges and Difficulties Encountered
 Overall task wasn't too challenging, however it caused me to give it a second thought when I needed to remove Quoters from the Rows in Pivot Table at the sheet Theater Outcomes by Launch Date. 
