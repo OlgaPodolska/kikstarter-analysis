@@ -19,7 +19,7 @@ To perform the analysis I took the following step:
 #### General comments about chart
 1. Successul campaigns launched in April, May and June, we can see the big peak in May and months near it.
 2. We can see the peaks as well in the February and October.
-3. Hystorical minimum is in December, the quantity of succesful campaign almost the same as failed.
+3. Year minimum is in December, the quantity of failed campaign almost the same as successful.
 
 ### Analysis of Outcomes Based on Goals
 ![Outcomes_vs_Goals.png](/resources/Outcomes_vs_Goals.png)
@@ -37,11 +37,12 @@ To perform the analysis I took the following step:
 7. Then I created chart for the Percentages.
 
 #### General comments about chart
-1& We can clearly see that chart has 4 areas: 
+We can clearly see that chart has 4 areas: campaigns with the small goals till 20K are more than 50% successful, than campaigns between 20K and 40K goals are than 50% failed, and between 40K and 45K successful again, but there are 6 campaign only. The more expencive campaigns failed.
 
 ### Challenges and Difficulties Encountered
-Overall task wasn't too challenging, however it caused me to give it a second thought when I needed to remove Quoters from the Rows in Pivot Table at the sheet Theater Outcomes by Launch Date. 
-At the sheet Outcomes Based on Goals one should pay attention to the formula at the last row, because it is different from another and should use >= mathematical symbol.
+1. Overall task wasn't too challenging, however it caused me to give it a second thought when I needed to remove Quoters from the Rows in Pivot Table at the sheet Theater Outcomes by Launch Date. 
+2. At the sheet Outcomes Based on Goals one should pay attention to the formula at the last row, because it is different from another and should use >= mathematical symbol.
+3. At the first step I don't even noticed, that the chart Outcomes_vs_Goals should has a goals describing on the x-axis. Only when I myself couldn't remember what the points mean, I saw that in the sample assignment the goals directly listed. 
 
 
 ## Results
@@ -60,4 +61,5 @@ There could be other variables that affect the final outcome. For example, the p
 
 >- What are some other possible tables and/or graphs that we could create?
 
-Calculating and visualizing by percentage of successful/failed/canceled Theater campaigns by the time of year in the sheet "Theater Outcomes by Launch Date", could be more comprehensive than numbers. 
+1. Calculating and visualizing by percentage of successful/failed/canceled Theater campaigns by the time of year in the sheet "Theater Outcomes by Launch Date", could be more comprehensive than actual numbers. 
+2. Considering we have not the canceled campaigns at the "Outcomes_vs_Goals" chart, maybe another type of chart could be more demonstrative for percentage of successful campaigns instead of line chart, which basically duplicates information. 
